@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>images</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+  </head>
+  <body>
+  <div class="gallery" align="center">
+    <% images.forEach(function(image) { %>
+      <img src="<%= image.location %>" height="200" width="200" align="center">
+    <% }); %>
+  </div>
+  <div align="center">
+    <form action="/logout" method="post" enctype="multipart/form-data">
+    <br>
+      <input id="gobutton" type="submit" value="Logout" style="background-color: #394648" style="color: #FFF8DC" />
+    </form>
+  </div>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+.gallery {
+	display: grid;
+}
+
+img {
+    width: 300px;
+    padding: 25px;
+    border: 25px solid #394648 ;
+    margin: 25px;
+}
+
+input#gobutton {
+	cursor: pointer;
+}
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #DED68A;
+  border: solid;
+}
+
+
+a {
+  color: #00B7FF;
+}
